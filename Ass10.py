@@ -13,9 +13,9 @@ def display():
     search = entry.get()
     print(search)
     if search:
-        l1.config(text="Navigating to Pinterest...")
+        l1.config(text="Navigating to Bing...")
         
-        wb.open(f"https://in.pinterest.com/search/pins/?q={search}")
+        wb.open(f"https://www.bing.com/={search}")
     else:
         print("Please enter something")
 
